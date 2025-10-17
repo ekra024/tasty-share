@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Burger",
+    "photo": "https://i.ibb.co.com/sdhCvwHC/Image2.jpg",
+    "quantity": "30",
+    "place": "Rangpur",
+    "date": "2025-10-24",
+    "note": "It is delicious",
+    "donator-name": "ABC",
+    "donator-email": "abc@gmail.com",
+    "donator-img": "https://i.ibb.co.com/Ndnzn2RR/1.png",
+    "status": "available"
+  },
+  {
+    "name": "Pizza",
+    "photo": "https://i.ibb.co.com/yFGpwTYn/369063.jpg",
+    "quantity": "15",
+    "place": "Dhaka",
+    "date": "2025-10-25",
+    "note": "Cheesy and tasty",
+    "donator-name": "ABC",
+    "donator-email": "abc@gmail.com",
+    "donator-img": "https://i.ibb.co.com/Ndnzn2RR/1.png",
+    "status": "available"
+  },
+  {
+    "name": "Fried Rice",
+    "photo": "https://i.ibb.co.com/7d0rhtvm/Fried-Rice.jpg",
+    "quantity": "25",
+    "place": "Barishal",
+    "date": "2025-10-26",
+    "note": "Mixed with vegetables",
+    "donator-name": "ABC",
+    "donator-email": "abc@gmail.com",
+    "donator-img": "https://i.ibb.co.com/Ndnzn2RR/1.png",
+    "status": "available"
+  },
+  {
+    "name": "Sandwich",
+    "photo": "https://i.ibb.co.com/NgwvgH4q/Sandwich.jpg",
+    "quantity": "20",
+    "place": "Chittagong",
+    "date": "2025-10-27",
+    "note": "Healthy breakfast",
+    "donator-name": "ABC",
+    "donator-email": "abc@gmail.com",
+    "donator-img": "https://i.ibb.co.com/Ndnzn2RR/1.png",
+    "status": "available"
+  },
+  {
+    "name": "Pasta",
+    "photo": "https://i.ibb.co.com/d2jq9vL/pasta.jpg",
+    "quantity": "18",
+    "place": "Khulna",
+    "date": "2025-10-28",
+    "note": "Creamy white sauce pasta",
+    "donator-name": "ABC",
+    "donator-email": "abc@gmail.com",
+    "donator-img": "https://i.ibb.co.com/Ndnzn2RR/1.png",
+    "status": "available"
+  },
+  {
+    "name": "Chicken Roll",
+    "photo": "https://i.ibb.co.com/SRqtn2D/chicken-roll.jpg",
+    "quantity": "40",
+    "place": "Rajshahi",
+    "date": "2025-10-29",
+    "note": "Crispy and spicy",
+    "donator-name": "ABC",
+    "donator-email": "abc@gmail.com",
+    "donator-img": "https://i.ibb.co.com/Ndnzn2RR/1.png",
+    "status": "available"
+  },
+  {
+    "name": "Noodles",
+    "photo": "https://i.ibb.co.com/LRzDJ4K/noodles.jpg",
+    "quantity": "35",
+    "place": "Sylhet",
+    "date": "2025-10-30",
+    "note": "Hot and spicy noodles",
+    "donator-name": "ABC",
+    "donator-email": "abc@gmail.com",
+    "donator-img": "https://i.ibb.co.com/Ndnzn2RR/1.png",
+    "status": "available"
+  },
+  {
+    "name": "Hot Dog",
+    "photo": "https://i.ibb.co.com/X4tx1rz/hotdog.jpg",
+    "quantity": "22",
+    "place": "Mymensingh",
+    "date": "2025-10-31",
+    "note": "Loaded with sausages",
+    "donator-name": "ABC",
+    "donator-email": "abc@gmail.com",
+    "donator-img": "https://i.ibb.co.com/Ndnzn2RR/1.png",
+    "status": "available"
+  },
+  {
+    "name": "Biryani",
+    "photo": "https://i.ibb.co.com/q1knq2r/biryani.jpg",
+    "quantity": "50",
+    "place": "Comilla",
+    "date": "2025-11-01",
+    "note": "Perfectly spiced biryani",
+    "donator-name": "ABC",
+    "donator-email": "abc@gmail.com",
+    "donator-img": "https://i.ibb.co.com/Ndnzn2RR/1.png",
+    "status": "available"
+  },
+  {
+    "name": "Momo",
+    "photo": "https://i.ibb.co.com/XkMnzcw/momo.jpg",
+    "quantity": "28",
+    "place": "Gazipur",
+    "date": "2025-11-02",
+    "note": "Steamed chicken momos",
+    "donator-name": "ABC",
+    "donator-email": "abc@gmail.com",
+    "donator-img": "https://i.ibb.co.com/Ndnzn2RR/1.png",
+    "status": "available"
+  }
+]

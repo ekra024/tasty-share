@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Chef Ayesha Rahman",
+    "image": "./chef1.jpeg",
+    "specialty": "Bangladeshi & South Asian",
+    "experience": "12 years",
+    "recipes": 56,
+    "rating": 4.9,
+    "bio": "Chef Ayesha is known for modernizing traditional Bangladeshi dishes with a touch of global flavor. Her biryani and fusion kebabs are loved across Dhaka."
+  },
+  {
+    "id": 2,
+    "name": "Chef Tanvir Ahmed",
+    "image": "./chef2.jpg",
+    "specialty": "Continental & Grilled Foods",
+    "experience": "10 years",
+    "recipes": 42,
+    "rating": 4.8,
+    "bio": "Tanvir specializes in flame-grilled dishes and sauces. He’s known for his juicy steaks and creative plating techniques."
+  },
+  {
+    "id": 3,
+    "name": "Chef Riya Chatterjee",
+    "image": "./chef3.jpg",
+    "specialty": "Desserts & Pastry",
+    "experience": "8 years",
+    "recipes": 68,
+    "rating": 4.7,
+    "bio": "Riya brings French pastry art to local sweets. Her chocolate soufflé and mango mousse have become legendary among food bloggers."
+  },
+  {
+    "id": 4,
+    "name": "Chef Imran Hossain",
+    "image": "./chef4.jpg",
+    "specialty": "Asian Fusion & Sushi",
+    "experience": "15 years",
+    "recipes": 51,
+    "rating": 4.9,
+    "bio": "Imran combines Japanese precision with Bangladeshi flavors. His sushi rolls and teriyaki platters are both artistic and delicious."
+  },
+  {
+    "id": 5,
+    "name": "Chef Nabila Karim",
+    "image": "./chef5.png",
+    "specialty": "Healthy & Vegan Dishes",
+    "experience": "7 years",
+    "recipes": 47,
+    "rating": 4.6,
+    "bio": "Nabila focuses on clean eating and plant-based nutrition. Her colorful bowls and smoothies make healthy food look irresistible."
+  },
+  {
+    "id": 6,
+    "name": "Chef Arif Chowdhury",
+    "image": "./chef6.avif",
+    "specialty": "Italian & Mediterranean Cuisine",
+    "experience": "11 years",
+    "recipes": 60,
+    "rating": 4.8,
+    "bio": "Arif trained in Rome and brings authentic Italian flavors home. His handmade pasta and wood-fired pizzas are a crowd favorite."
+  }
+]

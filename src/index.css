@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui";
+
+.nunito{
+   font-family: "Nunito", sans-serif;
+}
+
+.lato{
+   font-family: "Lato", sans-serif;
+}
+
+.label-color{
+   color:#9CA3AF;
+}
+
+.input-field{
+   background-color:#FFF2E9;
+   border:1px solid #FFE5D0;
+
+}
+
+.input-field:focus {
+   border-color: #FF4C29;
+   box-shadow: 0 0 6px rgba(255, 76, 41, 0.3);
+   background-color: white;
+}
+

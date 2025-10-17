@@ -1,0 +1,48 @@
+[
+  {
+    "id": 1,
+    "img": "/bangladeshi.webp",
+    "title": "Classic Chicken Biryani"
+  },
+  {
+    "id": 2,
+    "img": "/Indian.jpg",
+    "title": "Spicy Beef Curry"
+  },
+  {
+    "id": 3,
+    "img": "/korean.jpg",
+    "title": "Vegetable Fried Rice"
+  },
+  {
+    "id": 4,
+    "img": "/Cheenes.jpeg",
+    "title": "Grilled Salmon with Lemon Butter"
+  },
+  {
+    "id": 5,
+    "img": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800",
+    "title": "Creamy Mushroom Pasta"
+  },
+  {
+    "id": 6,
+    "img": "/american.jpeg",
+    "title": "Cheesy Veg Pizza"
+  },
+  {
+    "id": 7,
+    "img": "/cake.jpg",
+    "title": "Chocolate Lava Cake"
+  },
+  {
+    "id": 8,
+    "img": "/pudding.jpg",
+    "title": "Thai Green Curry"
+  },
+ 
+  {
+    "id": 10,
+    "img": "/salad.jpg",
+    "title": "Fresh Garden Salad"
+  }
+]
