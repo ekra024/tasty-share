@@ -5,8 +5,8 @@ It allows users to explore, share, and save delicious recipes — all while ensu
 
 ---
 
-## 🚀 Live Demo
-🔗 [Visit TastyShare](#) *([(https://tasty-share.web.app/)])*
+[![Website](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)]()
+[![Server](https://img.shields.io/badge/GitHub-Repo-black?style=flat-square&logo=github)](https://github.com/ekra024/tasty-share-server)
 
 ---
 
@@ -49,3 +49,29 @@ It allows users to explore, share, and save delicious recipes — all while ensu
 | **Version Control** | Git & GitHub |
 
 ---
+
+## 🚀 Installation / Running Locally
+
+1. Clone the repository:
+```bash
+git clone https://github.com/YourUsername/tastyShare.git
+
+cd tastyShare
+npm install
+
+.env.local
+VITE_apiKey="your_api_key"
+VITE_authDomain="your_auth_domain"
+VITE_projectId="your_project_id"
+VITE_storageBucket="your_storage_bucket"
+VITE_messagingSenderId="your_messaging_sender_id"
+VITE_appId="your_app_id"
+VITE_API_URL="https://backend-sigma-flame-93.vercel.app/api"
+VITE_image_upload_key=your_image_upload_key
+VITE_STRIPE_PUBLIC_KEY=your_stripe_public_key 
+
+To run
+npm run dev
+
+
+
