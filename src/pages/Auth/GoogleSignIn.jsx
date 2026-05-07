@@ -10,20 +10,12 @@ const GoogleSignIn = () => {
   const path = location?.state || "/";
 
   const handleGoogleLogin = () => {
+  
     socialLogin()
       .then((res) => {
         const curUser = res.user;
 
-        toast.success("Sucessully Login", {
-          position: "top-right",
-          autoClose: 2500,
-          hideProgressBar: false,
-          closeOnClick: false,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "light",
-        });
+        toast.success("Sucessully Login");
 
         setUser(curUser);
 
@@ -31,17 +23,8 @@ const GoogleSignIn = () => {
           navigate(path);
         }, 2500);
       })
-      .catch(() => {
-        toast.error("Email or Password invalid", {
-          position: "top-right",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: false,
-          pauseOnHover: true,
-          draggable: true,
-          progress: undefined,
-          theme: "light",
-        });
+      .catch(() => { 
+        toast.error("Login Unsucessful");
       });
   };
 
