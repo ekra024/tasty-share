@@ -70,7 +70,7 @@ const UpdateFood = () => {
             type="submit"
             className="btn bg-[#06D6A0] hover:bg-[#04B184] text-white"
           >
-            Request
+            Update Food
           </button>
         </div>
       </form>

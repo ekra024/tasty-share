@@ -51,12 +51,12 @@ const AddFood = () => {
           <div className="md:flex mb-8">
             <div className="font-semibold md:w-1/2">
               <label className="label">
-                <span className="label-color">Food Name</span>
+                <span className="text-black">Food Name</span>
               </label>
               <input
                 type="text"
                 placeholder="Food Name"
-                className="input input-bordered w-full text-black border-black placeholder:text-black"
+                className="input input-bordered w-full text-black border-black placeholder: bg-white"
                 name="name"
                 required
               />
@@ -64,12 +64,12 @@ const AddFood = () => {
 
             <div className="form-control font-semibold text-black md:w-1/2 md:ml-4 mt-8 md:mt-0">
               <label className="label">
-                <span className="label-color">Food Image</span>
+                <span className="text-black">Food Image</span>
               </label>
               <input
                 type="url"
                 placeholder="Food Photo URL"
-                className="input input-bordered w-full text-black border-black placeholder:text-black"
+                className="input input-bordered w-full text-black border-black placeholder: bg-white"
                 name="photo"
                 required
               />
@@ -80,26 +80,26 @@ const AddFood = () => {
           <div className="md:flex text-black font-semibold mb-8">
             <div className="form-control md:w-1/2">
               <label className="label">
-                <span className="label-color">Food Quantity</span>
+                <span className="text-black">Food Quantity</span>
               </label>
               <input
                 type="number"
                 placeholder="Food Quantity"
-                className="input input-bordered w-full text-black border-black placeholder:text-black"
+                className="input input-bordered w-full text-black border-black placeholder: bg-white"
                 name="quantity"
                 required
               />
             </div>
 
             {/* Release Year Radio */}
-            <div className="form-control text-black font-semibold md:w-1/2 md:ml-4 mt-8 md:mt-0">
+            <div className="form-control font-semibold md:w-1/2 md:ml-4 mt-8 md:mt-0">
               <label className="label">
-                <span className="label-color">Pickup Location</span>
+                <span className="text-black">Pickup Location</span>
               </label>
               <select
                 name="place"
                 required
-                className="w-full text-black border p-2"
+                className="w-full border p-2"
               >
                 {[
                   "Dhaka",
@@ -111,7 +111,7 @@ const AddFood = () => {
                 ].map((place) => (
                   <option
                     key={place}
-                    className="flex items-center gap-2 cursor-pointer text-black"
+                    className="flex items-center gap-2 cursor-pointer"
                   >
                     {place}
                   </option>
@@ -124,26 +124,26 @@ const AddFood = () => {
           <div className="md:flex mb-8">
             <div className="form-control font-semibold text-black md:w-1/2">
               <label className="label">
-                <span className="label-color">Expired Date</span>
+                <span className="text-black">Expired Date</span>
               </label>
               <input
                 type="date"
                 placeholder="Expired Date"
-                className="input input-bordered w-full bg-white border-black placeholder:text-black"
+                className="input input-bordered w-full bg-white border-black "
                 name="date"
                 min={minDate}
                 required
               />
             </div>
 
-            <div className="form-control md:w-1/2 font-semibold text-black md:ml-4">
+            <div className="form-control md:w-1/2 font-semibold md:ml-4">
               <label className="label">
-                <span className="label-color">Additional Notes</span>
+                <span className="text-black">Additional Notes</span>
               </label>
               <input
                 type="text"
                 placeholder="Add Note"
-                className="input input-bordered w-full bg-white text-black border-black placeholder:text-black"
+                className="input input-bordered w-full bg-white text-black border-black "
                 name="note"
                 required
               />
@@ -180,7 +180,7 @@ const AddFood = () => {
                 name="donator_img"
                 value={user?.photoURL}
                 readOnly
-                className="input input-bordered w-full text-[#9CA3AF]"
+                className="input input-bordered w-full text-[#9CA3AF] bg-white"
               />
             </div>
 

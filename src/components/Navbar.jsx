@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import Icon from "/IconImage.jpeg";
 import { MdPerson } from "react-icons/md";
 import useAuth from "../hooks/useAuth";
+import ThemePage from "../pages/OtherPage/ThemePage";
 
 const Navbar = () => {
   const { user, logoutUser, setUser } = useAuth();
@@ -75,7 +76,11 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <ul className="flex gap-3 menu-horizontal px-1 ">{links}</ul>
       </div>
+    
       <div className="navbar-end gap-2 nunito">
+        <div>
+        <ThemePage/>
+      </div>
         {user && user?.email ? (
           <>
             <Link
