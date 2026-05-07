@@ -5,7 +5,7 @@ It allows users to explore, share, and save delicious recipes — all while ensu
 
 ---
 
-[![Website](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)]()
+[![Website](https://img.shields.io/badge/Live-Demo-blue?style=flat-square)](https://tasty-share.web.app/)
 [![Server](https://img.shields.io/badge/GitHub-Repo-black?style=flat-square&logo=github)](https://github.com/ekra024/tasty-share-server)
 
 ---
